@@ -148,6 +148,8 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    max-width: 1440px;
+    background-position: center
 }
 
 .main-hero {
@@ -178,6 +180,7 @@ img {
     margin: 48px auto 0;
     text-transform: capitalize;
     text-align: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -213,9 +216,15 @@ img {
     width: calc((100% - 72px) / 4)
 }
 
-.border {
-    border: 1px solid;
+.advantages-border {
+    display: flex;
     background-color: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px
 }
 
 .icon {}
@@ -226,7 +235,6 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 8px;
     margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
