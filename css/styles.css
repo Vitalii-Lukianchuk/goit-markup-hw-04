@@ -47,6 +47,9 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -291,6 +294,9 @@ current::after {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name-clas {
@@ -318,27 +324,20 @@ current::after {
     padding-bottom: 8px;
 }
 
-.team-icons {
-    display: flex;
-    margin: 0 16px;
-    gap: 24px;
-}
+.team-icons {}
 
-.team-icons-img {
-    background-color: #4D5AE5;
-    fill: #F4F4FD;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-}
+.team-icons-ul {}
 
-.team-icons-img:hover,
-.team-icons-img:focus {
-    background-color: #404BBF;
-    fill: #F4F4FD;
-}
+.team-icons-li {}
+
+.team-icons-link {}
+
+.team-icons-img {}
+
 
 .team-img {}
+
+
 
 /*---------------SECTIO---4--------------*/
 
