@@ -292,6 +292,7 @@ current::after {
 
 .team-item {
     background-color: #FFFFFF;
+    text-align: center;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -299,13 +300,12 @@ current::after {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-clas {
+.team-image {
     padding: 32px 0;
     text-align: center;
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    padding: 32px 0;
 }
 
 .name-clas {
@@ -329,6 +329,7 @@ current::after {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-bottom: 32px;
 }
 
 .icons-list {
@@ -438,19 +439,10 @@ current::after {
 
 /*-----------------FOOTER-----------------*/
 .footer {
-    align-items: baseline;
     background-color: #2E2F42;
     padding: 100px 0;
 }
 
-.footer-div {
-    display: flex;
-    align-items: baseline;
-}
-
-.footer-one {
-    margin-right: 120px;
-}
 
 .footer-link {
     color: #4d5ae5;
@@ -478,6 +470,15 @@ current::after {
     max-width: 264px;
 }
 
+.footer-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-one {
+    margin-right: 120px;
+}
+
 .footer-header {
     display: flex;
     font-weight: 500;
@@ -495,8 +496,6 @@ current::after {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-
-.footer-container {}
 
 .footer-icons {
     display: flex;
